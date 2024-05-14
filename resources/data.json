@@ -1,0 +1,42 @@
+[
+    {
+        "codigo": 1,
+        "tipo":"Remera",
+        "img":"./resources/RemeraNike_S.jpeg",
+        "descripcion": "Remera en color gris Nike de algodon excelente calidad",
+        "precio":12000,
+        "talle":"S",
+        "cantidad":1,
+        "color":"gris"
+    },
+    {
+        "codigo": 2,
+        "tipo":"Remera",
+        "img":"./resources/2_TheNorthFace.jpeg",
+        "descripcion": "Remera en color gris Nike de algodon excelente calidad",
+        "precio":12000,
+        "talle":"S",
+        "cantidad":1,
+        "color":"gris"
+    },
+    {
+        "codigo": 1,
+        "tipo":"Remera",
+        "img":"./resources/RemeraNike_S.jpeg",
+        "descripcion": "Remera en color gris Nike de algodon excelente calidad",
+        "precio":12000,
+        "talle":"S",
+        "cantidad":1,
+        "color":"gris"
+    },
+    {
+        "codigo": 2,
+        "tipo":"Remera",
+        "img":"./resources/RemeraNike_S.jpeg",
+        "descripcion": "Remera en color gris Nike de algodon excelente calidad",
+        "precio":12000,
+        "talle":"S",
+        "cantidad":1,
+        "color":"gris"
+    }
+]
