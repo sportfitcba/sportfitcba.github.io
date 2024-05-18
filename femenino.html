@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en" data-bs-theme="auto">
+  <head>
+    <script src="./js/color-modes.js"></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Ornella Luna">
+    <meta name="generator" content="Ornella 0.1">
+    <title>Indumentaria</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Mochiy+Pop+One&family=Yellowtail&display=swap" rel="stylesheet">
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/album/">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@3">
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
+    <link href="./css/page.css" rel="stylesheet">
+  </head>
+  <body>
+    
+    <div class="container">  
+      <main>
+        <!--header-->
+        <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom" >
+          <div class="col-md-3 mb-2 mb-md-0" >
+            <p class="yellowtail-regular" style="font-size: xxx-large;">Sport Fit</p>
+            </div>
+            <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0 bebas-neue-regular" style="font-size: x-large;">
+              <li><a href="./index.html" class="nav-link px-2 ">Inicio</a></li>
+              <li><a href="./femenino.html" class="nav-link px-2 text-body-secondary">Femenino</a></li>
+              <li><a href="./masculino.html" class="nav-link px-2 ">Masculino</a></li>
+            </ul>
+            <div class="col-md-3 text-end">
+            </div>   
+        </header>
+        <!--Fin header-->
+        <!--Texto descriptivo-->
+        <div class="row">
+          <div class="col-12 text-center">
+        <h1 class="mochiy-pop-one-regular">Indumentaria Femenina</h1>
+        </div></div>
+        <!--Fin texto descriptivo-->
+        <!--Album-->
+        <div class="album py-2">
+          <div class="container" >
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3" id="output">
+            </div>
+          </div>
+        </div>
+       <!--Fin album-->
+      </main>
+      </div> 
+
+      <footer class="text-body-secondary py-5"></footer>
+      <script src="./js/bootstrap.bundle.min.js"></script>
+      <script src="./js/api.js"></script>
+      <script src="./js/page.js"></script>
+      <script>
+        showProducts('Femenino', `select A, C, F, I where I is not null and F != 'No disponible'`, '#output')
+      </script>
+      </body>
+      </html>
